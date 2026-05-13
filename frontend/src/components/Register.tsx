@@ -78,7 +78,7 @@ function goBack() {
         <div className="left-part"></div>
 {/* step1 */}
             <div className="right-part">
-      <h1 className="titre">INSCRIPTION</h1>
+      <h1 className="titre">INCSCRIPTION</h1>
 
               {step1 ? (
                     <div className="step1">
