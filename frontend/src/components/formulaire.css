@@ -1,0 +1,19 @@
+
+
+
+
+.msg {
+  font-size: 20px;
+  color: #2c2c2c;
+  margin-top: 20px;
+}
+
+
+.msg a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.form-container {
+      place-items: center;
+}
