@@ -38,7 +38,7 @@ export default function Home() {
 
     try {
 
-      const response = await fetch("http://localhost:8000/api/deleteAccount", {
+      const response = await fetch("https://logregdel.onrender.com/api/deleteAccount", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
