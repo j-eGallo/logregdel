@@ -6,6 +6,14 @@ doctrine:
         profiling_collect_backtrace: "%kernel.debug%"
         use_savepoints: true
 
+        schema_filter: "~^(?!auth|storage|supabase_functions|graphql_public|schema_migrations)~"
+
+        mapping_types:
+            _text: text
+            regclass: string
+            _user_defined_filter: text
+            regrole: string
+
     orm:
         auto_generate_proxy_classes: true
         enable_lazy_ghost_objects: true
