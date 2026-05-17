@@ -1,27 +1,27 @@
-# 🚀 LOGREGDEL
+#  LOGREGDEL
 
 Application d’authentification Fullstack moderne développée avec **React**, **TypeScript**, **Symfony** et **PostgreSQL**.
 
 ---
 
-# 📸 Aperçu
+#  Aperçu
 
 LOGREGDEL est une application permettant :
 
-- ✅ Création de compte utilisateur
-- ✅ Connexion sécurisée avec JWT
-- ✅ Authentification Fullstack
-- ✅ Communication Frontend ↔ Backend
-- ✅ API REST Symfony
-- ✅ Base PostgreSQL distante
-- ✅ Déploiement cloud
-- ✅ Architecture moderne React/Symfony
+-  Création de compte utilisateur
+-  Connexion sécurisée avec JWT
+-  Authentification Fullstack
+-  Communication Frontend ↔ Backend
+-  API REST Symfony
+-  Base PostgreSQL distante
+-  Déploiement cloud
+-  Architecture moderne React/Symfony
 
 ---
 
-# 🛠️ Stack technique
+#  Stack technique
 
-## 🎨 Frontend
+##  Frontend
 
 - React
 - TypeScript
@@ -29,7 +29,7 @@ LOGREGDEL est une application permettant :
 - React Router DOM
 - CSS
 
-## ⚙️ Backend
+##  Backend
 
 - Symfony
 - Doctrine ORM
@@ -37,19 +37,19 @@ LOGREGDEL est une application permettant :
 - API REST
 - Nelmio CORS
 
-## 🗄️ Base de données
+##  Base de données
 
 - PostgreSQL
 - Supabase
 
-## ☁️ Déploiement
+##  Déploiement
 
 - Vercel (Frontend)
 - Render (Backend)
 
 ---
 
-# 🏗️ Architecture du projet
+# Architecture du projet
 
 ```txt
 Frontend React (Vercel)
