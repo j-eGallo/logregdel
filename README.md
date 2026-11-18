@@ -1,27 +1,53 @@
-#  LOGREGDEL
+# 🔐 LOGREGDEL
 
-Application d’authentification Fullstack moderne développée avec **React**, **TypeScript**, **Symfony** et **PostgreSQL**.
-
----
-
-#  Aperçu
-
-LOGREGDEL est une application permettant :
-
--  Création de compte utilisateur
--  Connexion sécurisée avec JWT
--  Authentification Fullstack
--  Communication Frontend ↔ Backend
--  API REST Symfony
--  Base PostgreSQL distante
--  Déploiement cloud
--  Architecture moderne React/Symfony
+Application d'authentification Fullstack moderne développée avec **React**, **TypeScript**, **Symfony** et **PostgreSQL**.
 
 ---
 
-#  Stack technique
+# 🌐 Démonstration
 
-##  Frontend
+🔗 [Accéder à LOGREGDEL](https://logregdel.vercel.app)
+
+---
+
+# 📋 Fonctionnalités
+
+- Création de compte utilisateur
+- Formulaire d'inscription en deux étapes
+- Connexion sécurisée avec JWT
+- Déconnexion
+- Suppression de compte
+- Validation des champs de formulaire
+- Vérification de la complexité des mots de passe
+- Gestion des messages d'erreur
+- Interface responsive
+- Communication Frontend ↔ Backend
+- API REST Symfony
+- Déploiement cloud
+
+---
+
+# 🔒 Sécurité
+
+- Authentification par token JWT
+- Hachage des mots de passe
+- Configuration des accès CORS
+- Confirmation du mot de passe
+- Validation des mots de passe côté frontend
+
+### Critères de validation des mots de passe
+
+- 8 caractères minimum
+- Au moins une majuscule
+- Au moins une minuscule
+- Au moins un chiffre
+- Au moins un caractère spécial
+
+---
+
+# 🛠️ Stack technique
+
+## Frontend
 
 - React
 - TypeScript
@@ -29,32 +55,64 @@ LOGREGDEL est une application permettant :
 - React Router DOM
 - CSS
 
-##  Backend
+## Backend
 
+- PHP
 - Symfony
 - Doctrine ORM
-- JWT Authentication
+- LexikJWTAuthenticationBundle
 - API REST
 - Nelmio CORS
 
-##  Base de données
+## Base de données
 
 - PostgreSQL
 - Supabase
 
-##  Déploiement
+## Déploiement
 
 - Vercel (Frontend)
 - Render (Backend)
+- Docker (Conteneurisation du backend)
+- Supabase (Base de données distante)
 
 ---
 
-# Architecture du projet
+# 🏗️ Architecture du projet
 
 ```txt
-Frontend React (Vercel)
-        ↓
-API Symfony (Render)
-        ↓
-PostgreSQL Supabase
+Frontend React / TypeScript (Vercel)
+                 ↓
+          Requêtes HTTP / JSON
+                 ↓
+      API REST Symfony (Render)
+                 ↓
+            Doctrine ORM
+                 ↓
+        PostgreSQL (Supabase)
 ```
+
+---
+
+# 📱 Responsive Design
+
+L'application dispose d'une interface adaptée aux différents supports :
+
+- Ordinateurs
+- Tablettes
+- Smartphones
+
+---
+
+# 🎯 Objectifs du projet
+
+Ce projet a été réalisé afin de mettre en pratique :
+
+- Le développement d'une application Fullstack
+- La conception d'une API REST
+- La gestion de l'authentification
+- La sécurisation des données utilisateurs
+- L'intégration d'une base de données distante
+- La conteneurisation avec Docker
+- Le déploiement d'une application dans le cloud
+- La conception d'interfaces responsives
